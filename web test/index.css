@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+header{
+    height: 20vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    padding-left: 15px;
+    padding-right: 30px;
+    align-items: center;
+    top: 0;
+    
+}
+.courses{
+    background-color: rgb(16, 78, 132);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 100vw;
+}
+.home{
+    background-color: rgb(4, 183, 40);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 100vw;
+}
+.aboutus{
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 100vw;
+}
+.timetable{
+    background-color: aquamarine;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 100vw;
+}
+.registration{
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: background-color 0.3s;
+    font-size: medium;
+    z-index: 100;
+    position: sticky;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main{
+    max-width: 1000px;
+    margin: 20px;
+
+}
+section{
+    border-radius: 10px;
+
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+}
